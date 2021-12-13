@@ -1,0 +1,14 @@
+===DETAILS===
+32 tiles wide
+23 tiles tall (The bottom tile will be cut off)
+
+===FORMAT===
+Symbols representing tiles will be layed out with spaces between them
+This will allow for reading in a line and spliting it into an array for easy use.
+
+===EX===
+1 1 1 - - - - - - - - 1 1 1 2 2 1 1 1 1 - - - - - - 1 1 1 1 1 1
+1 1 1 - - - - - - - - - 1 1 2 2 1 1 1 - - - - - - 1 1 1 1 1 1 1
+1 1 1 2 - - - - - - - - 1 1 1 1 1 1 1 - - - - - - 1 1 1 1 1 1 1
+
+etc.

@@ -1,0 +1,37 @@
+﻿Welcome to Documentation, this will explain most functions of most classes in alphabetical order
+
+
+Collider.SetWidth - sets the width of the collider
+Collider.SetHeight - sets the height of the collider
+Collider.Intersects - checks to see if a collider is intersecting with another collider
+
+CollisionManager.GetInstance - gives access to the CollisionManager
+CollisionManager.GetInstance.AddStaticCollider - adds a collider that does not handle collisions
+CollisionManager.GetInstance.AddActiveCollider - adds a collider that handles collisions, checking against all the static colliders
+CollisionManager.GetInstance.CheckForCollisions - checks for collisions between active and static colliders.
+
+Component.Draw - Called upon Component being Drawn
+Component.OnCollision - Called when a gameobject collides with a collider
+Component.Start - Called upon Component being added to a GameObject
+Component.Update - Called upon Component being updated
+Component.LateUpdate - Called upon Component being updated after collision is handled
+
+GameObject.AddComponent - adds a component to the gameobject
+GameObject.Draw - draws all the components of the gameobject
+GameObject.GetComponent - gets a reference to the first available component of the gameobject
+GameObject.HasComponent - informs you whether a component of type exists in the gameobject
+GameObject.GetComponents - gets a reference to all the components of a type in the gameobject
+GameObject.GetComponentCount - gets the number of components of a type in the gameobject
+GameObject.LateUpdate - Updates all the components of the gameobject after collisions have been handled.
+GameObject.OnCollision - sends a notice of a collision to all the gameobjects
+GameObject.Update - updates all the components of the gameobject
+
+ObjectManager.GetInstance - gives access to the ObjectManager
+ObjectManager.GetInstance().AddObject - adds an gameobject to be managed
+ObjectManager.GetInstance().Draw - draws all the gameobjects
+ObjectManager.GetInstance().LateUpdate - updates all gameobjects after collision has been handled
+ObjectManager.GetInstance().Update - updates all the gameobjects
+
+TextureComponent.Draw - draws the texture component
+TextureComponent.SetWidth - Sets the width of the textureComponent
+TextureComponent.SetHeight - sets the height of the texturecomponent
